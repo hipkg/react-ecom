@@ -1,0 +1,37 @@
+// eslint-disable-next-line
+$roboto-font:'Roboto', sans-serif;
+/*FONTS SIZE*/
+$font-size-x-small:9px;
+$font-size-small:12px;
+$font-size-small-x:13px;
+$font-size-x-regular:14px;
+$font-size-regular:16px;
+$font-size-regular-1:17px;
+$font-size-regular-x:18px;
+$font-size-x-medium:20px;
+$font-size-medium:22px;
+$font-size-large:25px;
+$font-size-large-x: 28px;
+$font-size-x-large:30px;
+$font-size-xx-large:36px;
+$font-size-xxx-large:48px;
+$font-size-xxxx-large:72px;
+
+/*FONTS WEIGHT*/
+$font-weight-light:300;
+$font-weight-regular:400;
+$font-weight-medium:500;
+$font-weight-bold:700;
+
+/*BORDER COLORS*/
+$border-color:#d8d8d8;
+$border-blue:#0d47a1;
+$border-red:#f00;
+$input-border-color: #ced4da;
+
+/*BORDER RADIUS*/
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}

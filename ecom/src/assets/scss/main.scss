@@ -1,0 +1,233 @@
+// eslint-disable-next-line
+@import 'colors';
+@import 'var';
+@import 'header';
+@import 'header';
+@import 'search';
+@import 'home-page';
+
+
+body {
+  color: $primary-color-light;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: $primary-color;
+}
+
+.btn {
+  &:focus,
+  &:hover {
+    box-shadow: none !important;
+  }
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.heading-2 {
+  color: $black-dark;
+  font-size: $font-size-medium;
+  width: 100%;
+
+  @media (max-width: 640px){
+    font-size: $font-size-regular;
+  }
+}
+
+
+.product-list {
+
+  .heading-2 {
+    margin: 0px 0 15px 0;
+    padding: 0px 15px;
+  }
+
+  &:last-child {
+    margin: 0 0 40px;
+  }
+
+  .card {
+    margin: 0 0 20px 0;
+
+    a {
+      color: $primary-color-light;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    .card-body {
+      text-align: center;
+      .card-title {
+        color: $primary-color-light-gray;
+        font-size: $font-size-regular;
+        margin:  0 0 .25rem 0;
+        height: 45px;
+        overflow: hidden;
+
+        @media (max-width: 575px) {
+          font-size: $font-size-x-regular;
+        }
+
+      }
+
+      .card-text {
+        font-weight: 700;
+        font-size: $font-size-medium;
+        margin: 0 0 .35rem 0;
+        color: $primary-color-light;
+
+        @media (max-width: 575px) {
+          font-size: $font-size-regular;
+        }
+      }
+
+    }
+
+    .badge-success,
+    .badge-warning,
+    .badge-danger {
+      position: absolute;
+      font-size: $font-size-x-small;
+      text-transform: capitalize;
+      padding: .45em .1em;
+      top: 10px;
+      left: 10px;
+      width: 70px;
+
+      &.stock-bage {
+        top: 10px;
+        right: 10px;
+        left: auto
+      }
+
+    }
+
+    .badge-warning,
+    .badge-danger {
+      top: 10px;
+      left: auto;
+      right: 10px;
+    }
+
+    .badge-free-delivery {
+      top: auto;
+      bottom: 0px;
+      right: 10px;
+      left: auto;
+      width: 70px;
+      @include border-radius(3px 3px 0px 0px);
+      background: $pink-red;
+    }
+
+    small {
+      display: block;
+      color: $primary-color-light;
+      @media (max-width: 575px) {
+        font-size: $font-size-x-small;
+      }
+
+      i {
+        font-style: normal;
+        margin-left: .3rem;
+        color: $green;
+        font-weight: $font-weight-bold;
+      }
+    }
+
+  }
+
+  .btn-light-buy {
+    background: $white;
+    color: rgba($red-light,0.55);
+    border: solid 1px rgba($red-light,0.55);
+    font-size: $font-size-small;
+    text-transform: capitalize;
+    padding: .275rem .65rem;
+    margin: .4rem 0 0 0;
+
+    &:hover {
+      background: $red-light;
+      color: $white;
+    }
+
+  }
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+::-webkit-input-placeholder {
+  font-size: $font-size-small;
+}
+
+::-moz-placeholder {
+  font-size: $font-size-small;
+}
+
+:-ms-input-placeholder {
+  font-size: $font-size-small;
+}
+
+:-moz-placeholder {
+  font-size: $font-size-small;
+}
+
+
+.ripple {
+	position: relative;
+	overflow: hidden;
+  transform: translate3d(0, 0, 0);
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        background-image: radial-gradient(circle, $primary-color 10%, transparent 10.01%);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        transform: scale(10, 10);
+        opacity: 0;
+        transition: transform .5s, opacity 1s
+    }
+
+  &:active {
+    &::after {
+      transform: scale(0, 0);
+      opacity: .2;
+      transition: 0s;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+header {
+    background: $brand-red-100;
+}
+
+.header-right {
+    .location-dropdown {
+        display: flex;
+        align-items: center;
+        padding: 0.11rem;
+        @include border-radius(5px);
+
+        i {
+            color:$white;
+        }
+        .form-select {
+            background-color: transparent;
+            border: 0px;
+            color: $white;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+
+    ul li {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+
+    .btn-outline-secondary {
+        &:focus,
+        &:hover {
+            background-color: transparent;
+            background: transparent;
+        }
+    }
+}
+
+.login-option {
+    .dropdown-toggle::after {
+        display: none;
+    }
+}
+
+.cart-icon {
+    top: 4px;
+    i {
+        font-size: 30px;
+        color: $white;
+    }
+
+    .badge {
+        font-size: $font-size-x-small;
+        padding: .2rem !important;
+        top: 3px;
+        right: -9px;
+    }
+}
