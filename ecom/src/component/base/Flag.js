@@ -21,10 +21,10 @@ const App = () => {
         searchable={true}
         showSelectedLabel={showSelectedLabel}
         showSecondarySelectedLabel={showSecondarySelectedLabel}
-        selectedSize={15}
+        selectedSize={14}
         showOptionLabel={showOptionLabel}
         showSecondaryOptionLabel={showSecondaryOptionLabel}
-        optionsSize={16}
+        optionsSize={14}
       />
     </div>
   );

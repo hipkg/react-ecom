@@ -10,19 +10,19 @@ return (
   <div className="header-top">
     <div className="container-fluid">
       <ul className="d-flex m-0 justify-content-end align-items-center py-1">
-        <li className='me-2'>
+        <li>
           <Flag />
         </li>
         <li className='d-flex align-items-center'>
           <i className="material-symbols-outlined text-white me-2">account_balance_wallet</i>
-          <span className='text-white me-2'>Currency</span>
-          <select className="form-select py-0" aria-label="Default select example">
-            <option selected>OMR-OMANI RIAL</option>
-            <option value="1">INR-RUPPES</option>
-            <option value="2">USD-DOLLAR</option>
+          <span className='text-white'>Currency</span>
+          <select className="form-select p-0 ps-2" aria-label="Default select">
+            <option selected>OMR-Omani Rial</option>
+            <option value="1">INR-Ruppes</option>
+            <option value="2">USD-Dollar</option>
           </select>
         </li>
-        <li className='ms-2'>
+        <li>
           <a href="Tel:+968 90612612">Welcome to Call Us: +968 90612612</a>
         </li>
       </ul>

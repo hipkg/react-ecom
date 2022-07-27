@@ -3,15 +3,20 @@
     ul{
         li{ 
             font-size: $font-size-x-regular;
+            margin-right: .77rem;
+            &:last-child {
+                margin-right: 0px;
+            }
             .form-select{
                 background-color: transparent;
                 border: none;
                 color: $white; 
                 font-size: $font-size-x-regular;
-                padding-left: 5px;
+                width: 150px;
                 &:focus {
                     box-shadow: none;
                 }
+                background-position: 102% 56%;
                 background-image: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27><path fill=%27none%27 stroke=%27white%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27m2 5 6 6 6-6%27/></svg>');
                 option{
                     color: $black-dark;
@@ -41,6 +46,19 @@
                 }
             }
         }
+    }
+
+    .ReactFlagsSelect-module_flagsSelect__2pfa2 {
+        padding-bottom: 0px !important;
+    }
+    .ReactFlagsSelect-module_selectValue__152eS, 
+    .ReactFlagsSelect-module_selectOption__3pcgW {
+        margin: 0px;
+        margin-right: 11px !important;
+    }
+
+    i {
+        font-size: $font-size-x-regular;
     }
 }
 
@@ -104,3 +122,24 @@ header {
         right: -9px;
     }
 }
+
+.header-top ul li .flag {
+    button{
+        
+        &::after {
+           display: none;
+        }
+
+        &::before {
+            content: '';
+            background-image: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27><path fill=%27none%27 stroke=%27white%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27m2 5 6 6 6-6%27/></svg>');
+            width: 12px;
+            height: 12px;
+            background-position: top right;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: -1px;
+        }
+    }
+}
+
