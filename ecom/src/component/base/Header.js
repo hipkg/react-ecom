@@ -1,9 +1,33 @@
 import React from 'react';
 import Search from './Search';
+import Flag from './Flag';
 import logo from '../../assets/images/logo.png';
+
 
 const Header = () =>{
 return (
+  <>
+  <div className="header-top">
+    <div className="container-fluid">
+      <ul className="d-flex m-0 justify-content-end align-items-center py-1">
+        <li className='me-2'>
+          <Flag />
+        </li>
+        <li className='d-flex align-items-center'>
+          <i className="material-symbols-outlined text-white me-2">account_balance_wallet</i>
+          <span className='text-white me-2'>Currency</span>
+          <select className="form-select py-0" aria-label="Default select example">
+            <option selected>OMR-OMANI RIAL</option>
+            <option value="1">INR-RUPPES</option>
+            <option value="2">USD-DOLLAR</option>
+          </select>
+        </li>
+        <li className='ms-2'>
+          <a href="Tel:+968 90612612">Welcome to Call Us: +968 90612612</a>
+        </li>
+      </ul>
+    </div>
+  </div>
   <header className='navbar'>
     <div className="container-fluid">
       <a className="navbar-brand" href="/">
@@ -45,6 +69,7 @@ return (
       </div>
     </div>
   </header>
+  </>
   )
 }
 export default Header;
