@@ -2,6 +2,7 @@ import React from 'react';
 import Search from './Search';
 import Flag from './Flag';
 import logo from '../../assets/images/logo.png';
+import Menu from './Menu'
 
 
 const Header = () =>{
@@ -69,6 +70,7 @@ return (
       </div>
     </div>
   </header>
+  <Menu menuItems={['same day',"birthday","flowers","cakes","chocolates","sweets","perfumes","gifts","occassions","browse by brand"]}/>
   </>
   )
 }

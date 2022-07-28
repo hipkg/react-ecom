@@ -79,9 +79,13 @@ header {
         .form-select {
             background-color: transparent;
             border: 0px;
-            color: $white;
+            color: $white;    
+            background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27white%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e");
             &:focus {
                 box-shadow: none;
+            }
+            option{
+                color: $black-dark;
             }
         }
     }
@@ -143,3 +147,28 @@ header {
     }
 }
 
+.header-bottom{
+    box-shadow: 0px 0px 5px 0.2px $black-dark;
+    .dropdown{
+        .dropdown-toggle{
+            border: none;
+            font-size: $font-size-x-regular;
+            border-radius: 0px;
+            &::after{
+                content: '';
+                width: 8px;
+                height: 8px;
+                border-width: 0px 2px 2px 0px;
+                border-style: solid;
+                border-color: black;
+                transform: rotateZ(45deg);
+                margin-left: 10px;
+            }&:hover{
+                background-color: $light-gray;
+                ~ .dropdown-menu{
+                    display: block !important;
+                }
+            }
+        }
+    }
+}

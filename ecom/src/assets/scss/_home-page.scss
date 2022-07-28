@@ -1,0 +1,30 @@
+section.bannerSection{
+    .banner{
+        background-color: $Sky-blue;
+        h1{
+            color: $Sky-blue-400;
+            font-size: 5rem;
+            font-family: 'Monospace';
+        }
+        p{
+            color: $Sky-blue-400;
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+        .btn-white{
+            background-color: white !important;
+            font-size: 1.5rem;
+            border: none;
+            font-weight: 500;
+        }
+    }
+}
+
+.banner-warrper {
+    background-size: cover !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    height: 320px;
+}
+
+
