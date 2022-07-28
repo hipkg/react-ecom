@@ -1,0 +1,114 @@
+{
+	"flowers": {
+ "name": "flowers",
+ "products": [
+ {
+ "imgUrl": "../assets/images/flowers/GOC_CANY_PF_15_large.jpg",
+
+ "name": "CHECK PRINT SHIRT",
+ "price": 599,
+ "availability": 100,
+ "color": "red",
+ "size": "L",
+ "isBestSeller": true
+
+ },
+ {
+ "imgUrl": "require('../assets/images/flowers/GOC_VAL_BO50PR_9_large.jpg')",
+ "name": "GLORIA HIGH LOGO SNEAKER",
+ "description": "",
+ "price": 699,
+ "availability": 100,
+ "color": "red",
+ "size": "L",
+ "isBestSeller": true
+ },
+ {
+ "imgUrl": "require('../assets/images/flowers/GOC_VAL_DOL_large.jpg')",
+ "name": "CATE RIGID BAG",
+ "description": "",
+ "price": 94.5,
+ "availability": 100,
+ "color": "red",
+ "size": "L",
+ "isBestSeller": true
+ },
+ {
+ "imgUrl": "require('../assets/images/flowers/GOC_VAL_MRB_12_large.jpg')",
+ "name": "GUESS CONNECT WATCH",
+ "description": "",
+ "price": 438.9,
+ "color": "red",
+ "size": "L",
+ "availability": 100,
+ "isBestSeller": true
+ },
+ {
+ "imgUrl": "../assets/images/flowers/GOC_VAL_RAWRA_10_large.jpg",
+ "name": "'70s RETRO GLAM KEFIAH",
+ "price": 20,
+ "description": "",
+ "color": "red",
+ "size": "L",
+ "availability": 100,
+ "isBestSeller": true
+ }
+ ]
+ },
+
+ "cakes": {
+ "name": "cakes",
+ "products": [
+ {
+ "imgUrl": "require('../assets/images/cakes/GOC_CANY_CT_27_large.jpg')",
+ "name": "CHECK PRINT SHIRT",
+ "price": 599,
+ "availability": 100,
+ "color": "red",
+ "size": "L",
+ "isBestSeller": true
+
+ },
+ {
+ "imgUrl": "require('../assets/images/cakes/GOC_CANY_CT_27_large.jpg')",
+ "name": "GLORIA HIGH LOGO SNEAKER",
+ "description": "",
+ "price": 699,
+ "availability": 100,
+ "color": "red",
+ "size": "L",
+ "isBestSeller": true
+ },
+ {
+ "imgUrl": "require('../assets/images/cakes/GOC_CANY_NYRVC_24_large.jpg')",
+ "name": "CATE RIGID BAG",
+ "description": "",
+ "price": 94.5,
+ "availability": 100,
+ "color": "red",
+ "size": "L",
+ "isBestSeller": true
+ },
+ {
+ "imgUrl": "require('../assets/images/cakes/GOC_CANY_NYRVPC_25_large.jpg')",
+ "name": "GUESS CONNECT WATCH",
+ "description": "",
+ "price": 438.9,
+ "color": "red",
+ "size": "L",
+ "availability": 100,
+ "isBestSeller": true
+ },
+ {
+ "imgUrl": "require('../assets/images/GOC_CANY_ONYC_21_large.jpg')",
+ "name": "'70s RETRO GLAM KEFIAH",
+ "price": 20,
+ "description": "",
+ "color": "red",
+ "size": "L",
+ "availability": 100,
+ "isBestSeller": true
+ }
+ ]
+ }
+}

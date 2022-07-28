@@ -21,15 +21,11 @@ export default () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='banner-warrper' style={{background:'url(https://rukminim1.flixcart.com/flap/844/140/image/5892f28edc54fb44.jpg)'}}>
+          <div className='banner-warrper' style={{background:'url(https://www.giftsonclick.com/media/wysiwyg/cake-banner-01.png)'}}>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='banner-warrper' style={{background:'url(https://www.giftsonclick.com/media/wysiwyg/flowers-banner-PINK.png)'}}>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className='banner-warrper' style={{background:'url(https://www.giftsonclick.com/media/wysiwyg/flowers-banner-PINK.png)'}}>
+          <div className='banner-warrper' style={{background:'url(https://www.giftsonclick.com/media/wysiwyg/combos-banner.png)'}}>
           </div>
         </SwiperSlide>
       </Swiper>

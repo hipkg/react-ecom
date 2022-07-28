@@ -1,9 +1,8 @@
 import React from 'react'
-
 export default function Menu({menuItems}) {
   return (
     <>
-        <div className="header-bottom">
+        <div className="header-bottom bg-white">
           <div className="container-fluid">
             <ul className='d-flex align-items-center m-0'>
               {menuItems.map((menuItem)=>{
