@@ -1,0 +1,85 @@
+footer{
+    ul{
+        display: flex;
+        li{
+            display: flex;
+            flex-direction: column;
+            width: calc(100% / 4);
+            span{
+                font-size: $font-size-x-regular;
+                font-weight: $font-weight-bold;
+            }
+            a{
+                margin-top: 10px;
+                color: $white;
+                font-size: $font-size-x-regular;
+                &:hover,
+                &:focus{
+                    color: white;
+                }
+            }
+            p{
+                margin-top: 10px;
+                color: $white;
+                font-size: $font-size-x-regular;
+            }
+            form{
+                @include border-radius(5px);
+                overflow: hidden;
+                position: relative;
+                input[type=text]{
+                    border: 0px;
+                    padding: 7px 5px;
+                    &:hover,
+                    &:focus{
+                        border: 0px;
+                        outline: 0px;
+                    }
+                }
+                input[type=submit]{
+                    position: absolute;
+                    right: 0;
+                    background-color: $pink-red;
+                    border: 0px;
+                    text-transform: uppercase;
+                    color: $white;
+                    padding: 7px 5px;
+                }
+            }
+            .icons{
+                margin-top: 30px !important;
+                li{
+                    width: 40px !important;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                    background-color: $white;
+                    a{
+                        width: 25px;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+    hr{
+        border-color: gray;
+    }
+    .bottom-footer{
+        color: $white;
+        p{
+            width: fit-content;
+            margin: 0;
+            .image-wrapper{
+                width: 70px;
+                margin-left: 10px;
+                img{
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

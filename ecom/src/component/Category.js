@@ -10,11 +10,11 @@ export default function Category({categoryData}) {
                 <h1 className='fw-normal text-center py-2'>Find the perfect gifts every occassion</h1>
                 <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, rem?</p>
                 <ul className='pt-3'>
-                    {categoryData.map((category)=>{
-                        return <li>
-                                <a className='card shadow-sm' href="#">
+                    {categoryData.map((category,index)=>{
+                        return <li key={index}>
+                                <a className='card shadow-sm' href="#BuyNow">
                                     <div className='img-box'>
-                                        <img src={category.img} alt={category.title} className=""  width={'100px'} height={'100px'} />
+                                        <img src={category.img} alt={category.title} width={'100px'} height={'100px'} />
                                     </div>
                                     <p className='text-capitalize'>{category.title}</p>
                                 </a>

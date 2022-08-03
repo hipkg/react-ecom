@@ -2,10 +2,20 @@
 @import 'colors';
 @import 'var';
 @import 'header';
-@import 'header';
+@import 'footer';
 @import 'search';
 @import 'home-page';
 
+::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  &-track{
+    background-color: $pink-color;
+  }
+  &-thumb{
+    background-color:lightcoral;
+  }
+}
 
 body {
   color: $primary-color-light;
@@ -32,7 +42,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 
   &:hover,
   &:focus {

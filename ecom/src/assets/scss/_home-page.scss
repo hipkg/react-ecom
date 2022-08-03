@@ -40,7 +40,6 @@
         display: inline-block;
         a{
             border: 0px;
-            text-decoration: none;
             text-align: center;
             display: flex;
             align-items: center;
@@ -60,27 +59,215 @@
     }
 }
 
-.deal-of-the-day{
-    li{
-        width: calc(100% * (1/4) - 10px);
-        margin-right: 10px;
-        display: inline-block;
-        a{
-            border: 0px;
-            text-decoration: none;
-            text-align: center;
-            overflow: hidden;
-            img{
-                max-width: 100%;
+.offer-section{
+    ul{
+        overflow-x: auto;
+        white-space:nowrap;
+        li{
+            width: calc(100% * (1/4) - 20px);
+            margin-right: 20px;
+            display: inline-block;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .image-wrapper{
+                    border: 0px;
+                    overflow: hidden;
+                    height: 309px;
+                    @include border-radius(5px);
+                }
+                p,div{
+                    color: $black;
+                    &.font-small{
+                        font-size: $font-size-x-regular;
+                    }
+                }
             }
         }
-        p{
-            color: $black;
-            &.font-small{
+    }
+}
+
+.item-section{
+    .side-banner{
+        height: 730px;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        @include border-radius(5px);
+        display: flex;
+        justify-content: center;
+        color: $white;
+        font-size: $font-size-xx-large;
+        font-weight:$font-weight-bold;
+    }
+    li{
+        width: calc(100% * (1/3) - 20px);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+        background-color: $white;
+        overflow: hidden;
+        @include border-radius(5px);
+        a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .image-wrapper{
+                height: 342px;
+                overflow: hidden;
+            }
+            .item-title{
                 font-size: $font-size-x-regular;
             }
         }
     }
 }
 
+.mid-banner-section{
+    .banner-wrapper{
+        background: url('../images/ChocolateCelebration.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 315px;
+        @include border-radius(10px);
+    }
+}
+
+.category-3card-section{
+    ul{
+        white-space: nowrap;
+        overflow-x: auto;
+        li{
+            width: calc(100% * (1/3) - 20px);
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: inline-block;
+            overflow: hidden;
+            a{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .image-wrapper{
+                    height: 396px;
+                    overflow: hidden;
+                    @include border-radius(5px);
+                }
+                .item-title{
+                    font-size: $font-size-x-regular;
+                }
+            }
+        }
+    }
+}
+
+.category-2card-section{
+    ul{
+        white-space: nowrap;
+        overflow-x: auto;
+        li{
+            &:last-child{
+                text-align: right;
+            }   
+            width: calc(100% * (1/2) - 20px);
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: inline-block;
+            overflow: hidden;
+            a{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .image-wrapper{
+                    height: 376px;
+                    width: 100%;
+                    overflow: hidden;
+                    @include border-radius(5px);
+                }
+            }
+        }
+    }
+}
+
+.feedback{
+    .card-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        .image-wrapper{
+            height: 100px;
+            overflow: hidden;
+            width: 100px;
+            border-radius: 50%;
+        }
+        div{
+            font-size: $font-size-regular;
+            width: 70%;
+        }
+        p{
+            font-size: $font-size-x-regular;
+        }
+        .facebook-icon{
+            width: 20px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    }
+    .card-body{
+        height: 130px;
+        overflow: auto;
+        &::-webkit-scrollbar{
+            width: 5px;
+            &-track{
+                background-color: lightgray;
+                border-radius: 2px;
+                overflow: hidden;
+            }
+            &-thumb{
+                background-color: gray;
+            }
+        }
+    }
+    .swiper-button-disabled{
+        display: none;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        &::after {
+            padding:30px 20px;
+            background-color: $white;
+            opacity: 0.8;
+            border-radius: 0px 10px 10px 0px;
+            font-size: $font-size-medium;
+            font-weight: bold;
+            color: $primary-color-light;
+        }
+
+    }
+
+    .swiper-button-prev{
+        left: 25px;
+    }
+    .swiper-button-next {
+        right: 25px;
+        &::after{
+            border-radius: 10px 0px 0px 10px;
+        }
+    }
+}
+
+.instruction-section{
+    h5{
+        font-size: $font-size-regular;
+    }
+    p{
+        font-size: $font-size-x-regular;
+    }
+}
 

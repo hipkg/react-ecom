@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore,{ Navigation,Pagination } from 'swiper';
 // Import Swiper styles
 import 'swiper/css/bundle';
-import banner from '../assets/images/CakeBanner.jpg';
 
 SwiperCore.use([Navigation,Pagination]);
 
