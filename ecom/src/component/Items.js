@@ -6,11 +6,11 @@ export default function ({title,titleColor,itemData,sidebanner}) {
         <div className="container-fluid">
             <div className="row">
                 <TitleContainer title={title}/>
-                <div className="col-4">
+                <div className="col-4 p-0 pe-4">
                     <div className="side-banner pt-5 text-capitalize" style={{background:`url(${sidebanner})`,color:`${titleColor}`}}>
                     </div>
                 </div>
-                <div className="col-8">
+                <div className="col-8 p-0">
                     <ul>
                         {itemData.map((item,index)=>{
                             return <li key={index}>

@@ -48,10 +48,10 @@ return (
           <li className='btn-group login-option'>
             <button type='button' className='btn btn-outline-secondary text-white border-0 dropdown-toggle' data-bs-toggle="dropdown" aria-expanded="false">Login/Register</button>
             <ul className="dropdown-menu dropdown-menu-end">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
-              <li><a className="dropdown-item" href="#">Separated link</a></li>
+              <li><a className="dropdown-item" href="#action">Action</a></li>
+              <li><a className="dropdown-item" href="#anotherAction">Another action</a></li>
+              <li><a className="dropdown-item" href="#somethingElseHere">Something else here</a></li>
+              <li><a className="dropdown-item" href="#separatedLink">Separated link</a></li>
             </ul>
           </li>
           <li>

@@ -10,14 +10,14 @@ SwiperCore.use([Navigation,Pagination]);
 export default function Feadback() {
   return (
     <section className="feedback px-5 py-4">
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         <div className="d-flex">
           <h1 className='fw-normal py-2 text-capitalize '>Our Happy Customer</h1>
         </div>
         <div className="row">
         <Swiper
         navigation
-        spaceBetween={50}
+        spaceBetween={20}
         slidesPerView={4}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}>
