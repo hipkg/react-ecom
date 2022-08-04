@@ -241,3 +241,27 @@ input[type='number'] {
     }
   }
 }
+
+section.px-5{
+  padding-left: 4.5rem !important;
+  padding-right: 4.5rem !important;
+}
+
+.heading-with-subtitle {
+  h1 {
+    font-size: $font-size-xx-large;
+    color: $primary-color;
+    font-weight: 400;
+  }
+
+  p,h5,h6 {
+    color: $primary-color-light;
+    font-size: $font-size-regular-x;
+  }
+}
+
+.heading-2 {
+  font-size: $font-size-x-large;
+  width: auto;
+  color: $primary-color
+}

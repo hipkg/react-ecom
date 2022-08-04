@@ -29,15 +29,15 @@ function App () {
       <Banner />
       <Category categoryData={categoryData}/>
       <OfferSection title={'Deals of the day'} isTimer={true} offerData={dealOfTheDayData}/>
-      <Items title={'cakes'} titleColor={"white"} itemData={cakesData} sidebanner={require('./assets/images/cakes/AllCakes.png')}/>
+      <Items title={'Cakes'} titleColor={"white"} itemData={cakesData} sidebanner={require('./assets/images/cakes/AllCakes.png')}/>
       <OfferSection title={'Trending now'}  offerData={dealOfTheDayData}/>
-      <Items title={'flowers'} titleColor={"#dd004a"} itemData={flowersData} sidebanner={require('./assets/images/flowers/AllFlowers.png')}/>
+      <Items title={'Flowers'} itemData={flowersData} sidebanner={require('./assets/images/flowers/AllFlowers.png')}/>
       <MidBanner />
-      <Items title={'personalised gifts'} titleColor={"brown"} itemData={personalisedGiftsData} sidebanner={require('./assets/images/personalisedGifts/PersonalisedGift.png')}/>
-      <CategoryWithThreeCard  title={'combos'}  itemData={combosData}/>
+      <Items title={'Personalised gifts'} itemData={personalisedGiftsData} sidebanner={require('./assets/images/personalisedGifts/PersonalisedGift.png')}/>
+      <CategoryWithThreeCard  title={'Combos'}  itemData={combosData}/>
       <CategoryWithTwoCard title={'Gift For'}  itemData={[require('./assets/images/Her.png'),require('./assets/images/Him.png')]}/>
       <CategoryWithThreeCard  title={'Experience gifting'}  itemData={experienceGiftsData}/>
-      <CategoryWithTwoCard title={'others'}  itemData={[require('./assets/images/FlowerSubscription.png'),require('./assets/images/CorporateGifts.png')]}/>
+      <CategoryWithTwoCard title={'Others'}  itemData={[require('./assets/images/FlowerSubscription.png'),require('./assets/images/CorporateGifts.png')]}/>
       <Feadback />
       <Instruction />
       <Footer/>

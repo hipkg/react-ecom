@@ -4,26 +4,23 @@ export default function ({title,titleColor,itemData,sidebanner}) {
   return (
     <section className='item-section py-4 px-5'>
         <div className="container-fluid">
-            <div className="row">
-                <TitleContainer title={title}/>
-                <div className="col-4 p-0 pe-4">
-                    <div className="side-banner pt-5 text-capitalize" style={{background:`url(${sidebanner})`,color:`${titleColor}`}}>
-                    </div>
+        <TitleContainer title={title}/>
+            <div className="category-row">
+                <div className="side-banner">
+                    <img src={sidebanner} alt={title} className="img-fluid" />
                 </div>
-                <div className="col-8 p-0">
-                    <ul>
-                        {itemData.map((item,index)=>{
-                            return <li key={index}>
-                                <a href="#BuyNow">
-                                    <div className="image-wrapper">
-                                        <img src={require(`../assets/images/${item.img}`)} className="img-fluid" alt={item.title} />
-                                    </div>
-                                    <div className='item-title text-capitalize text-center m-0 pt-2 font-small text-truncate text-dark py-3 fw-bold'>{item.title}</div>
-                                </a>
-                            </li>
-                        })}
-                    </ul>
-                </div>
+                <ul>
+                    {itemData.map((item,index)=>{
+                        return <li key={index} className="shadow-sm">
+                            <a href="#BuyNow">
+                                <div className="image-wrapper">
+                                    <img src={require(`../assets/images/${item.img}`)} className="img-fluid" alt={item.title} />
+                                </div>
+                                <h6 className='item-title text-capitalize text-center m-0 font-small text-truncate text-dark py-4 fw-bold'>{item.title}</h6>
+                            </a>
+                        </li>
+                    })}
+                </ul>
             </div>
         </div>
     </section>
