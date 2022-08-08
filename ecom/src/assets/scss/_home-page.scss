@@ -84,7 +84,7 @@
                 .image-wrapper{
                     border: 0px;
                     overflow: hidden;
-                    height: 309px;
+                    height: 294px;
                     @include border-radius(5px);
                 }
 
@@ -98,11 +98,6 @@
                     color: $primary-color;
                 }
             }
-            &:nth-child(4n){
-                margin-right: 0px !important;
-            }
-
-
         }
     }
 }
@@ -117,21 +112,18 @@
 
 .category-3card-section{
     ul{
-        white-space: nowrap;
-        overflow-x: auto;
+        display: flex;
+        justify-content: space-between;
         li{
             width: calc(100% * (1/3) - 1rem);
-            margin-right: 1.4rem;
             margin-bottom: 20px;
-            display: inline-block;
-            overflow: hidden;
             a{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 .image-wrapper{
-                    height: 396px;
+                    height: 388px;
                     width: 100%;
                     overflow: hidden;
                     @include border-radius(5px);
@@ -140,7 +132,9 @@
                     }
                 }
                 .item-title{
-                    font-size: $font-size-x-regular;
+                    margin-top: 15px !important;
+                    font-weight: 400 !important;
+                    font-size: $font-size-medium;
                 }
             }
             &:nth-child(3n){
@@ -152,24 +146,13 @@
 
 .category-2card-section{
     ul{
-        white-space: nowrap;
-        overflow-x: auto;
-        li{
-            &:last-child{
-                text-align: right;
-            }   
+        display: flex;
+        justify-content: space-between;
+        li{  
             width: calc(100% * (1/2) - 0.5rem);
-            margin-right: 1rem;
-            margin-bottom: 20px;
-            display: inline-block;
-            overflow: hidden;
             a{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
                 .image-wrapper{
-                    height: 409px;
+                    height: 386px;
                     width: 100%;
                     overflow: hidden;
                     @include border-radius(5px);
@@ -178,51 +161,66 @@
                     }
                 }
             }
-            &:last-child{
-                margin-right: 0px !important;
-            }
         }
     }
 }
 
 .feedback{
-    .card-header{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        position: relative;
-        .image-wrapper{
-            height: 100px;
-            overflow: hidden;
-            width: 100px;
-            border-radius: 50%;
-        }
-        div{
-            font-size: $font-size-regular;
-            width: 70%;
-        }
-        p{
-            font-size: $font-size-x-regular;
-        }
-        .facebook-icon{
-            width: 20px;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-        }
+    .heading{
+        font-size: $font-size-x-large;
+        font-weight: $font-weight-medium;
     }
-    .card-body{
-        height: 130px;
-        overflow: auto;
-        &::-webkit-scrollbar{
-            width: 5px;
-            &-track{
-                background-color: lightgray;
-                border-radius: 2px;
+    .card{
+        border: 0px;
+        @include border-radius(5px);
+        .card-header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+            .image-wrapper{
+                height: 80px;
                 overflow: hidden;
+                width: 80px;
+                border-radius: 50%;
             }
-            &-thumb{
-                background-color: gray;
+            div{
+                font-size: $font-size-regular-x;
+                font-weight: $font-weight-medium !important;
+                width: 70%;
+            }
+            p{
+                font-size: $font-size-x-regular;
+                font-weight: $font-weight-regular;
+                color: $primary-color-light;
+                margin: 0px;
+            }
+            .facebook-icon{
+                width: 20px;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+            .rating i{
+                font-size: $font-size-regular;
+            }
+        }
+        .card-body{
+            height: 110px;
+            overflow: auto;
+            color: $primary-color-light;
+            font-size:$font-size-x-regular;
+            padding:10px 35px;
+            &::-webkit-scrollbar{
+                width: 5px;
+                &-track{
+                    background-color: lightgray;
+                    border-radius: 2px;
+                    overflow: hidden;
+                }
+                &-thumb{
+                    background-color: gray;
+                }
             }
         }
     }

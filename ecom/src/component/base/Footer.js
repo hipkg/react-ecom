@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () =>{
 return (
-  <footer className='pt-4 px-5 bg-dark'>
-    <div className="container">
+  <footer className='pt-5'>
+    <div className="container pb-4">
       <ul>
         <li>
           <span className='text-uppercase text-secondary'>My account</span>
@@ -32,8 +32,8 @@ return (
         <li>
           <span className='text-uppercase text-secondary'>subscribe</span>
           <p>The good stuff in your inbox News & Email,Offers,Updates</p>
-          <form action="/">
-            <input type="text" placeholder='Enter Email Id' />
+          <form action="/" method='POST'>
+            <input type="text" name='emailId' placeholder='Enter Email Id' />
             <input type="submit" value="Submit >" />
           </form>
           <ul className='icons mt-5 p-0'>

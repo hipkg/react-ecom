@@ -8,7 +8,7 @@ export default function TitleContainer({title,isTimer}) {
             <i className="material-symbols-outlined mx-2">timer</i>
             16 : 40 : 19 Left
         </p>:''}
-        <button className='btn btn-danger ms-auto'>View More</button>
+        <a href={`/${title}`} className='btn btn-danger ms-auto'>View More</a>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 footer{
+    background-color: $black-dark;
     ul{
         display: flex;
         li{
@@ -11,11 +12,11 @@ footer{
             }
             a{
                 margin-top: 10px;
-                color: $white;
+                color: $light-gray;
                 font-size: $font-size-x-regular;
                 &:hover,
                 &:focus{
-                    color: white;
+                    color: $white;
                 }
             }
             p{

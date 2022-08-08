@@ -6,7 +6,8 @@ import Banner from './component/Banner';
 import Category from './component/Category';
 import { useState } from 'react';
 import OfferSection from './component/OfferSection';
-import demo from './Json/demo.json'
+import demo from './Json/demo.json';
+import user from './Json/User.json';
 import Items from './component/Items';
 import MidBanner from './component/MidBanner';
 import CategoryWithThreeCard from './component/CategoryWithThreeCard';
@@ -38,7 +39,7 @@ function App () {
       <CategoryWithTwoCard title={'Gift For'}  itemData={[require('./assets/images/Her.png'),require('./assets/images/Him.png')]}/>
       <CategoryWithThreeCard  title={'Experience gifting'}  itemData={experienceGiftsData}/>
       <CategoryWithTwoCard title={'Others'}  itemData={[require('./assets/images/FlowerSubscription.png'),require('./assets/images/CorporateGifts.png')]}/>
-      <Feadback />
+      <Feadback user={user}/>
       <Instruction />
       <Footer/>
     </div>

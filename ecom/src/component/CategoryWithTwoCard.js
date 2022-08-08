@@ -5,13 +5,12 @@ export default function CategoryWithTwoCard({title,itemData}) {
   return (
     <section className='category-2card-section py-4 px-5'>
         <div className="container-fluid">
-            <div className="row">
                 <TitleContainer title={title}/>
                     <ul>
                         {itemData.map((item,index)=>{
                             return <li key={index}>
                                 <a href="#ShowNewPage">
-                                    <div className="image-wrapper">
+                                    <div className="image-wrapper shadow-sm">
                                         <img src={item} className="img-fluid" alt={item} />
                                     </div>
                                 </a>
@@ -19,7 +18,6 @@ export default function CategoryWithTwoCard({title,itemData}) {
                         })}
                     </ul>
                 </div>
-            </div>
     </section>
   )
 }

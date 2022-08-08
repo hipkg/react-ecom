@@ -31,9 +31,9 @@ $input-border-color: #ced4da;
 
 /*BORDER RADIUS*/
 @mixin border-radius($radius) {
-	border-radius: $radius;
-	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
+	border-radius: $radius !important;
+	-webkit-border-radius: $radius !important;
+	-moz-border-radius: $radius !important;
 }
 
 @mixin font-size($fontsize) {
