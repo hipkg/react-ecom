@@ -245,23 +245,55 @@ input[type='number'] {
 section.px-5{
   padding-left: 6.5rem !important;
   padding-right: 6.5rem !important;
+  @media(max-width:767px) {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    }
+  @media(max-width:599px) {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  }
 }
+
+
 
 .heading-with-subtitle {
   h1 {
     font-size: $font-size-xx-large;
     color: $primary-color;
     font-weight: 400;
+    @media (max-width:599px) {
+      font-size: $font-size-large;
+    }
   }
 
   p,h5,h6 {
     color: $primary-color-light;
     font-size: $font-size-regular-x;
+    @media (max-width:599px) {
+      font-size: $font-size-regular;
+    }
   }
 }
+
+
 
 .heading-2 {
   font-size: $font-size-x-large;
   width: auto;
-  color: $primary-color
+  color: $primary-color;
+  @media (max-width:599px) {
+    font-size: $font-size-medium;
+  }
+}
+
+
+
+@keyframes blink {
+  from{
+      opacity: 0.5;
+  }
+  to{
+      opacity: 1;
+  }
 }

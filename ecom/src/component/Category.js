@@ -10,7 +10,7 @@ export default function Category({categoryData}) {
                 </div>
                 <ul className='pt-3'>
                     {categoryData.map((category,index)=>{
-                        return <li key={index}>
+                        return <li key={index} className="col-6 col-md-4 col-lg-3 col-xl">
                                 <a className='bg-white rounded shadow-sm' href="#BuyNow">
                                     <div className='img-box'>
                                         <img src={require(`../assets/images/${category.img}`)} alt={category.title} />

@@ -8,7 +8,7 @@ export default function CategoryWithThreeCard({title,itemData}) {
                 <TitleContainer title={title}/>
                     <ul>
                         {itemData.map((item,index)=>{
-                            return <li key={index}>
+                            return <li key={index} className="col-12 col-md-6 col-lg-4">
                                 <a href="#ShowNewPage">
                                     <div className="image-wrapper shadow-sm">
                                         <img src={require(`../assets/images/${item.img}`)} className="img-fluid" alt={item.title} />
