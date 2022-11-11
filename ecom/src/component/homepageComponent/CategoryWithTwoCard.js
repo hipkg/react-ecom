@@ -1,5 +1,6 @@
 import React from 'react';
-import TitleContainer from './base/TitleContainer';
+import { Link } from 'react-router-dom';
+import TitleContainer from '../base/TitleContainer';
 
 export default function CategoryWithTwoCard({title,itemData}) {
   return (
@@ -9,11 +10,11 @@ export default function CategoryWithTwoCard({title,itemData}) {
                     <ul>
                         {itemData.map((item,index)=>{
                             return <li key={index} className="col-12 col-md-6">
-                                <a href="#ShowNewPage">
+                                <Link to="category" state={{data:item.category} }>
                                     <div className="image-wrapper shadow-sm">
-                                        <img src={item} className="img-fluid" alt={item} />
+                                        <img src={item.img} className="img-fluid" alt={item} />
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                         })}
                     </ul>

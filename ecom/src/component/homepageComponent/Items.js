@@ -1,5 +1,6 @@
 import React from 'react'
-import TitleContainer from './base/TitleContainer';
+import { Link } from 'react-router-dom';
+import TitleContainer from '../base/TitleContainer';
 
 // eslint-disable-next-line 
 export default function ({title,itemData,sidebanner}) {
@@ -14,9 +15,9 @@ export default function ({title,itemData,sidebanner}) {
                 <ul>
                     {itemData.map((item,index)=>{
                         return <li key={index} className="col-12 col-md-6 col-lg-4">
-                            <a href="#BuyNow" className='shadow-sm position-relative'>
+                            <Link to={{pathname:"buynow",state:{data:item}}} className='shadow-sm position-relative'>
                                 <div className="image-wrapper">
-                                    <img src={require(`../assets/images/${item.img}`)} className="img-fluid" alt={item.title} />
+                                    <img src={require(`../../assets/images/${item.img}`)} className="img-fluid" alt={item.title} />
                                 </div>
                                 <h6 className='item-title text-capitalize text-center m-0 font-small text-truncate text-dark py-4 fw-bold'>{item.title}</h6>
                                 { 
@@ -31,7 +32,7 @@ export default function ({title,itemData,sidebanner}) {
                                 item.availability<=10 && item.availability!==0?<span className="position-absolute badge badge-availablity" style={{backgroundColor:`rgba(${item.availability*25}, 0, 0)`}}>Order Now {item.availability} Left<span className="visually-hidden">unread messages</span>
                                 </span>:''
                                 }
-                            </a>
+                            </Link>
                         </li>
                     })}
                 </ul>

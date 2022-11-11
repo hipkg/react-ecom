@@ -49,7 +49,7 @@
         overflow: auto;
         padding-bottom: 10px !important;
         li{
-            padding:0px 10px;
+            padding:0px 1rem;
             &:first-child{
                 padding-left: 0px !important;
             }
@@ -125,7 +125,8 @@
                 div + p{
                     @include font-size(20px); 
                     color: $primary-color;
-                }span{
+                }
+                span{
                     left:-10px;
                     top: 15px;
                     border-radius: 0px;
@@ -136,7 +137,7 @@
                         width: 100%;
                         left:auto;
                         top: auto;
-                        bottom: 140px;
+                        top: 200px;
                         transform: skewX(0deg);
                         padding-left: 10px;
                         padding-right: 20px;
@@ -150,75 +151,77 @@
     }
 }
 
-.category-row {
-    width: 100%;
-    display: flex;
-    .side-banner {
-        width: 35%;
-        @media(max-width:599px) {
-            display: none;
-        }
-    }
-
-    ul {
-        width: 65%;
-        margin-left: 1.5rem;
+.item-section{
+    .category-row {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        overflow: auto;
-        flex-wrap: wrap;
-
-        li{
-            @include border-radius(5px);
-            margin-bottom: 1.5rem;
-            padding: 0px 10px;
-            &:first-child{
-                padding-left: 0px !important;
+        .side-banner {
+            width: 35%;
+            @media(max-width:599px) {
+                display: none;
             }
+        }
 
-            &:last-child{
-                padding-right: 0px !important;
-            }
-            a{
-                overflow: hidden;
-                background-color: $white;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                .image-wrapper{
-                    height: 306px;
-                    width: 100%;
+        ul {
+            width: 65%;
+            margin-left: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            overflow: auto;
+            flex-wrap: wrap;
+
+            li{
+                @include border-radius(5px);
+                margin-bottom: 1.5rem;
+                padding: 0px 10px;
+                &:first-child{
+                    padding-left: 0px !important;
+                }
+
+                &:last-child{
+                    padding-right: 0px !important;
+                }
+                a{
                     overflow: hidden;
-                }
-                .item-title{
-                    font-size: $font-size-regular;
-                }
-                span{
-                    left:-10px;
-                    top: 15px;
-                    border-radius: 0px;
-                    transform: skewX(-25deg);
-                    padding-left: 20px;
-
-                    &.badge-availablity{
+                    background-color: $white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .image-wrapper{
+                        height: 306px;
                         width: 100%;
-                        left:auto;
-                        top: auto;
-                        bottom: 80px;
-                        transform: skewX(0deg);
-                        padding-left: 10px;
-                        padding-right: 20px;
-                        transition: all 0.5s;
-                        padding: 10px;
-                        animation: blink 2s infinite;
+                        overflow: hidden;
+                    }
+                    .item-title{
+                        font-size: $font-size-regular;
+                    }
+                    span{
+                        left:-10px;
+                        top: 15px;
+                        border-radius: 0px;
+                        transform: skewX(-25deg);
+                        padding-left: 20px;
+
+                        &.badge-availablity{
+                            width: 100%;
+                            left:auto;
+                            top: auto;
+                            bottom: 80px;
+                            transform: skewX(0deg);
+                            padding-left: 10px;
+                            padding-right: 20px;
+                            transition: all 0.5s;
+                            padding: 10px;
+                            animation: blink 2s infinite;
+                        }
                     }
                 }
             }
-        }
-        @media (max-width:599px) {
-            flex-wrap: nowrap;
-            width: 100%;
+            @media (max-width:599px) {
+                flex-wrap: nowrap;
+                width: 100%;
+            }
         }
     }
 }

@@ -48,8 +48,8 @@ return (
     <div className="bottom-footer">
         <div className="container">
         <div className="row justify-content-between align-items-center">
-          <p>&copy; 2021 - 22 <strong>giftsonclick</strong> All right reserved</p>
-          <p className='d-flex align-items-center'>
+          <p className='col-6'>&copy; 2021 - 22 <strong>giftsonclick</strong> All right reserved</p>
+          <div className='d-flex align-items-center'>
             <div className='image-wrapper'>
               <img src={require('../../assets/images/icon/visa-logo-2.jpg')} alt="visa"  className='img-fluid'/>
             </div>
@@ -59,7 +59,7 @@ return (
             <div className='image-wrapper'>
               <img src={'https://gumlet.assettype.com/theceo/import/2020/03/goDaddy-web-hosting-banner.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max'} alt="visa"  className='img-fluid'/>
             </div>
-          </p>
+          </div>
         </div>
         </div>
       </div>

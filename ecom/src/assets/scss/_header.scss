@@ -150,7 +150,6 @@ header {
 
 .header-bottom{
     box-shadow: 0px 0px 5px 0.2px $black-dark;
-    overflow: hidden;
     .dropdown{
         .dropdown-toggle{
             border: none;
@@ -172,5 +171,8 @@ header {
                 }
             }
         }
+    }
+    @media(max-width:787px) {
+        display: none;
     }
 }

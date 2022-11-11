@@ -1,5 +1,6 @@
 import React from 'react';
-import TitleContainer from './base/TitleContainer';
+import { Link } from 'react-router-dom';
+import TitleContainer from '../base/TitleContainer';
 
 export default function CategoryWithThreeCard({title,itemData}) {
   return (
@@ -9,12 +10,12 @@ export default function CategoryWithThreeCard({title,itemData}) {
                     <ul>
                         {itemData.map((item,index)=>{
                             return <li key={index} className="col-12 col-md-6 col-lg-4">
-                                <a href="#ShowNewPage">
+                                <Link to="category" state={{data:item.title}}>
                                     <div className="image-wrapper shadow-sm">
-                                        <img src={require(`../assets/images/${item.img}`)} className="img-fluid" alt={item.title} />
+                                        <img src={require(`../../assets/images/${item.img}`)} className="img-fluid" alt={item.title} />
                                     </div>
-                                    <div className='item-title text-capitalize text-center m-0 pt-2 font-small text-truncate text-dark py-0 fw-bold'>{item.title}</div>
-                                </a>
+                                    <p className='item-title text-capitalize text-center m-0 pt-2 font-small text-truncate text-dark py-0 fw-bold'>{item.title}</p>
+                                </Link>
                             </li>
                         })}
                     </ul>

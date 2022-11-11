@@ -3,6 +3,7 @@ import Search from './Search';
 import Flag from './Flag';
 import logo from '../../assets/images/logo.png';
 import Menu from './Menu'
+import { Link } from 'react-router-dom';
 
 
 const Header = () =>{
@@ -31,9 +32,9 @@ return (
   </div>
   <header className='navbar navbar-dark navbar-expand-lg'>
     <div className="container-fluid">
-      <a className="navbar-brand" href="/">
+      <Link className="navbar-brand" to="/">
         <img src={logo} className="img-fluid" width={200} alt="logo" />
-      </a>
+      </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -52,23 +53,22 @@ return (
             <li className='btn-group login-option'>
               <button type='button' className='btn btn-outline-secondary text-white border-0 dropdown-toggle' data-bs-toggle="dropdown" aria-expanded="false">Login/Register</button>
               <ul className="dropdown-menu dropdown-menu-end">
-                <li><a className="dropdown-item" href="#action">Action</a></li>
-                <li><a className="dropdown-item" href="#anotherAction">Another action</a></li>
-                <li><a className="dropdown-item" href="#somethingElseHere">Something else here</a></li>
-                <li><a className="dropdown-item" href="#separatedLink">Separated link</a></li>
+                <li><Link className="dropdown-item" to="profile">Profile</Link></li>
+                <li><Link className="dropdown-item" to="action">Another action</Link></li>
+                <li><Link className="dropdown-item" to="settings">Settings</Link></li>
+                <li><Link className="dropdown-item" to="logout">Logout</Link></li>
               </ul>
             </li>
             <li>
-            <div className="position-relative cart-icon">
-              <i className="material-symbols-outlined">
-                shopping_cart
-              </i>
-              <span className="position-absolute translate-middle badge rounded-pill bg-warning ">
-                10
-                <span className="visually-hidden">unread messages</span>
-              </span>
-            </div>
-            
+              <div className="position-relative cart-icon">
+                <i className="material-symbols-outlined">
+                  shopping_cart
+                </i>
+                <span className="position-absolute translate-middle badge rounded-pill bg-warning ">
+                  10
+                  <span className="visually-hidden">unread messages</span>
+                </span>
+              </div>
             </li>
           </ul>
         </div>

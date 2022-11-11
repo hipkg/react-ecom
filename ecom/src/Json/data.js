@@ -4,7 +4,7 @@ export let data = {
     "name": "flowers",
     "products": [
       {
-        "imgUrl": require("../assets/images2/flowers/GOC_CANY_PF_15_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/GOC_CANY_PF_15_large.jpg"),
         "name": "Pink Flora",
         "price": 599.00,
         "description": "Gift these beautiful 6 pink Roses with fillers to the love of your life.",
@@ -20,7 +20,7 @@ export let data = {
 
       },
       {
-        "imgUrl": require("../assets/images2/flowers/GOC_SC_CHAF_GRRWC11_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/GOC_SC_CHAF_GRRWC11_large.jpg"),
         "name": "Gorgeous red rose with chocolates",
         "price": 799.00,
         "description": "If you are looking for a unique gift for your friends and family to surprise them on any special occasion then buy this gift set from giftsonclick.com. It contains a bouquet of red roses and dairy milk chocolates.",
@@ -34,7 +34,7 @@ export let data = {
         "vendorName": "Gifts-For-U Petals"
       },
       {
-        "imgUrl": require('../assets/images2/flowers/GOC_VAL_BO50PR_9_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/flowers/GOC_VAL_BO50PR_9_large.jpg'),
         "name": "Bunch of 50 pink roses",
         "description": "Roses are all time favorites. Surprise her with a bunch of 50 roses on a special day.",
         "price": 699.00,
@@ -48,7 +48,7 @@ export let data = {
         "vendorName": "PKG Petals"
       },
       {
-        "imgUrl": require('../assets/images2/flowers/GOC_VAL_DOL_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/flowers/GOC_VAL_DOL_large.jpg'),
         "name": "Depth of  Love in Red",
         "description": "Get this amazing arrangement of 8 roses in a box with a heart shaped 1 Kg red velvet cake to celebrate love.",
         "price": 999.00,
@@ -62,7 +62,7 @@ export let data = {
         "vendorName": "PKG Petals"
       },
       {
-        "imgUrl": require('../assets/images2/flowers/GOC_VAL_MRB_12_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/flowers/GOC_VAL_MRB_12_large.jpg'),
         "name": "Magical Red Bouquet",
         "description": "Surprise your special one with 8 red roses in a bouquet and make them feel wanted.",
         "price": 449.00,
@@ -76,7 +76,7 @@ export let data = {
         "vendorName": "PKG Petals"
       },
       {
-        "imgUrl": require("../assets/images2/flowers/GOC_VAL_RAWRA_10_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/GOC_VAL_RAWRA_10_large.jpg"),
         "name": "Red and white rose arrangement",
         "price": 799.00,
         "description": "A unique and elegant piece. This arrangement is just awe strucking. Gift your partner a special gift for his/her day.",
@@ -90,7 +90,7 @@ export let data = {
         "vendorName": "PKG Petals"
       },
       {
-        "imgUrl": require("../assets/images2/flowers/GOC_SS_20_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/GOC_SS_20_large.jpg"),
         "name": "Sweet Sixteen for you",
         "price": 599.00,
         "description": "A bouquet of 16 pink roses will just leave you mesmerised.Note: The color of the roses may vary due to photograph effects.",
@@ -105,7 +105,7 @@ export let data = {
         "vendorName": "PKG Petals"
       },
       {
-        "imgUrl": require("../assets/images2/flowers/GOC_SC_FCT_GOL_19_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/GOC_SC_FCT_GOL_19_large.jpg"),
         "name": "Gift for Loved one",
         "price": 999.00,
         "description": "Cute teddy and 10 dairy milk 37 g chocolates with roses will just leave you speechless.",
@@ -119,7 +119,7 @@ export let data = {
         "vendorName": "Anand Petals"
       },
       {
-        "imgUrl": require("../assets/images2/flowers/GOC_SFM_16_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/GOC_SFM_16_large.jpg"),
         "name": "Smiles from miles",
         "price": 599.00,
         "description": "Gift a set of 12 yellow roses to the most loved ones and make them feel happy.",
@@ -133,7 +133,7 @@ export let data = {
         "vendorName": "PKG Petals"
       },
       {
-        "imgUrl": require("../assets/images2/flowers/EC_RRARD_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/EC_RRARD_large.jpg"),
         "name": "Red roses and red teddy combo",
         "price": 999.00,
         "description": "Flowers and teddy are the most adorable items to strike accord of the heart of your beloved and make them smile. Red roses bouquet with teddy bear for HER. (Teddy bear size and color upon availabilty)",
@@ -147,7 +147,7 @@ export let data = {
         "vendorName": "Enchanted Garden"
       },
       {
-        "imgUrl": require("../assets/images2/flowers/EC_BB_32_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/EC_BB_32_large.jpg"),
         "name": "Beauty Basket",
         "price": 999.00,
         "description": "Flowers are always the best kind of gifts with ravishing looks and captivating smell. We have designed some fascinating floral pieces for your special day of love. This presentation is an amazing one.",
@@ -161,7 +161,7 @@ export let data = {
         "vendorName": "PKG Enchanted Garden"
       },
       {
-        "imgUrl": require("../assets/images2/flowers/CT_WH_V27_large.jpg"),
+        "imgUrl": require("../assets/Pkgimages/flowers/CT_WH_V27_large.jpg"),
         "name": "Wishes from heart",
         "price": 999.00,
         "description": "There is no occasion to give flowers. Bring a smile to someone and make memories which will last forever. Vase not included. Certain flowers may be delivered in fully bloomed, semi-bloomed or bud stage.",
@@ -182,7 +182,7 @@ export let data = {
     "name": "cakes",
     "products": [
       {
-        "imgUrl": require('../assets/images2/cakes/GOC_CANY_CGC_36_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/GOC_CANY_CGC_36_large.jpg'),
         "name": "Chocolaty gems cake",
         "description": "Get this chocolate cake decorated with gems and make them feel loved.",
         "price": 799.00,
@@ -197,7 +197,7 @@ export let data = {
         "vendorName": "PKG & Petals"
       },
       {
-        "imgUrl": require('../assets/images2/cakes/GOC_CANY_CT_27_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/GOC_CANY_CT_27_large.jpg'),
         "name": "Christmas Treat",
         "description": "Get this chocolate treat on Christmas eve with our Chocolate Christmas Cake.",
         "price": 699.00,
@@ -211,7 +211,7 @@ export let data = {
         "vendorName": "Gifts on click"
       },
       {
-        "imgUrl": require('../assets/images2/cakes/GOC_CANY_CHOCC_30_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/GOC_CANY_CHOCC_30_large.jpg'),
         "name": "Chocolate cake with chocolate cream topping",
         "price": 999.00,
         "description": "Chocolaty and creamy flavour is a perfect blend of both in a cake.",
@@ -226,7 +226,7 @@ export let data = {
         "vendorName": "Cake Plazza"
       },
       {
-        "imgUrl": require('../assets/images2/cakes/GOC_CANY_NYRVC_24_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/GOC_CANY_NYRVC_24_large.jpg'),
         "name": "Pomogranate cake/ Ruman Cake",
         "description": "Pomegranate cake looks really ravishing and would be loved by your loved ones. The colour of this cake makes it a great choice for every occasion.",
         "price": 499.00,
@@ -240,7 +240,7 @@ export let data = {
         "vendorName": "Sweet Gallery"
       },
       {
-        "imgUrl": require('../assets/images2/cakes/GOC_CANY_NYRVPC_25_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/GOC_CANY_NYRVPC_25_large.jpg'),
         "name": "Happy New Year Vanilla Photo Cake",
         "description": "Celebrate the New Year 2020 with pomp and show with this New Year Vanilla photo cake.",
         "price": 455.00,
@@ -254,7 +254,7 @@ export let data = {
         "vendorName": "Cake and gifts house"
       },
       {
-        "imgUrl": require('../assets/images2/cakes/GOC_CANY_ONYC_21_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/GOC_CANY_ONYC_21_large.jpg'),
         "name": "Happy New Year 2020 cake",
         "price": 988.00,
         "description": "Celebrate the New Year 2020 with pomp and show with this New Year 2020 special cake.",
@@ -268,7 +268,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/cakes/SC_JBM_107_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/SC_JBM_107_large.jpg'),
         "name": "Just be mine Black Forrest Cake",
         "price": 599.00,
         "description": "Enjoy the crunchy flavor of black forrest chocolate ina. Heart shaped cake, with special message for your lover.",
@@ -282,7 +282,7 @@ export let data = {
         "vendorName": "Clusters cake plazza"
       },
       {
-        "imgUrl": require('../assets/images2/cakes/GOC_CANY_BSC_30_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/cakes/GOC_CANY_BSC_30_large.jpg'),
         "name": "Butterscotch Cake",
         "price": 699.00,
         "description": "Magical and evergreen Butterscotch is an all time favorite. A perfect treat for all occasion.",
@@ -302,7 +302,7 @@ export let data = {
     "name": "chocolates",
     "products": [
       {
-        "imgUrl": require('../assets/images2/chocolates/CP_BV_05_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/CP_BV_05_large.jpg'),
         "name": "Blue Valentine",
         "price": 799.00,
         "availability": 100,
@@ -316,7 +316,7 @@ export let data = {
         "vendorName": "Chocola Paris"
       },
       {
-        "imgUrl": require('../assets/images2/chocolates/GOC_CANY_BLFR_18_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/GOC_CANY_BLFR_18_large.jpg'),
         "name": "Brotherly Love Ferrero Rocher Pack",
         "price": 499.00,
         "description": "Get this brother and sister selfie picture on a Ferrero Rocher box of 16 pieces of Ferrero Rocher of 200 gms.",
@@ -329,7 +329,7 @@ export let data = {
         "vendorName": "Ferrero Rocher Petals"
       },
       {
-        "imgUrl": require('../assets/images2/chocolates/CAM_CF_8_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/CAM_CF_8_large.jpg'),
         "name": "Choco Flavour",
         "price": 699.00,
         "description": "These chocolates will literally put a smile on your face. Carefully and artfully crafted these chocolates will definitely satisfy your taste buds.",
@@ -342,7 +342,7 @@ export let data = {
         "vendorName": "Choco & more"
       },
       {
-        "imgUrl": require('../assets/images2/chocolates/GOC_CANY_DMB_28_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/GOC_CANY_DMB_28_large.jpg'),
         "name": "Dairy Milk Bouquet",
         "description": "Get this chocolate treat with dairy milk bouquet of 9 dairy milks of 32.5 gms each arranged in the form of a bouquet.",
         "price": 699.00,
@@ -355,7 +355,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/chocolates/GOC_SC_CHAF_GRRWC11_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/GOC_SC_CHAF_GRRWC11_large.jpg'),
         "name": "Gorgeous red rose with chocolates",
         "price": 599.00,
         "description": "If you are looking for a unique gift for your friends and family to surprise them on any special occasion then buy this gift set from giftsonclick.com. It contains a bouquet of red roses and dairy milk chocolates.",
@@ -369,7 +369,7 @@ export let data = {
         "vendorName": "Chocolates Palazza"
       },
       {
-        "imgUrl": require('../assets/images2/chocolates/TMR_BSLC_1_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/TMR_BSLC_1_large.jpg'),
         "name": "Big box, single layered assorted chocolates",
         "description": "An extraordinary collection of delicious handmade Belgian chocolates available in various fillings, shapes and flavors made with natural ingredients.",
         "price": 699.00,
@@ -382,7 +382,7 @@ export let data = {
         "vendorName": "Big box, Clusters"
       },
       {
-        "imgUrl": require('../assets/images2/chocolates/TMR_WBD_1_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/TMR_WBD_1_large.jpg'),
         "name": "Wooden box of assorted chocolates",
         "description": "Each delight from Tamrah comes individually wrapped for you, in a wooden box. This keeps the taste and flavour of our chocolate, exactly the way we want you to relish them. They make for wonderful on-the-go treats, fabulous party snacks, fun favours or just a single serve treat for your delight.",
         "price": 999.00,
@@ -395,7 +395,7 @@ export let data = {
         "vendorName": "assorted chocolates"
       },
       {
-        "imgUrl": require('../assets/images2/chocolates/CP_RCT_64_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/chocolates/CP_RCT_64_large.jpg'),
         "name": "Royal Choco Tray",
         "price": 999.00,
         "description": "These scrumptious delights would lighten up your average table into an extravagant one with so many chocolates wrapped in a tempting manner for your close and special ones.",
@@ -415,7 +415,7 @@ export let data = {
     "name": "sweets",
     "products": [
       {
-        "imgUrl": require('../assets/images2/sweets/AHOS_HAM_03_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/AHOS_HAM_03_large.jpg'),
         "name": "Halwa Ameeri",
         "price": 999.00,
         "availability": 100,
@@ -429,7 +429,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/sweets/GH_J_43_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/GH_J_43_large.jpg'),
         "name": "Jalebi",
         "price": 299.00,
         "description": "Jalebi, the round spiral shaped Indian traditional sweet is a heavenly one. It is a melt-in-the-mouth Indian sweet and can best be described as funnel cakes.",
@@ -442,7 +442,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/sweets/KSR_KKT_18_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/KSR_KKT_18_large.jpg'),
         "name": "Kaju Katli",
         "price": 799.00,
         "description": "Kaju Katli (also known as Kaju Barfee or Cashew Burfee) is an extremely popular North Indian sweet, often made during Diwali and special festive occasions. This lip-smacking dessert recipe has the goodness of cashews and is truly delicious.",
@@ -455,7 +455,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/sweets/KSR_SPL_13_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/KSR_SPL_13_large.jpg'),
         "name": "Special Milk Cake",
         "description": "Milk cake is special sweet dish from Uttar Pradesh and Haryana. This can be prepared on any festival. This delectable sweet is prepared with milk, where milk is cooked until it gets dense and grainy in texture. It’s further cooked with sugar and allowed to set for almost 24 hours.",
         "price": 699.00,
@@ -468,7 +468,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/sweets/GH_BS_46_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/GH_BS_46_large.jpg'),
         "name": "Balu Shahi",
         "price": 599.00,
         "description": "Balushahi is an traditional North Indian flaky dessert made with maida, deep fried in ghee and coated with sugar syrup.",
@@ -482,7 +482,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/sweets/GH_PBL_38_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/GH_PBL_38_large.jpg'),
         "name": "Plain Besan Laddu",
         "description": "Besan ke ladoo is an Indian dessert made up of gram flour or besan roasted in ghee, flavored with sugar and cardamom and shaped into tight round balls.",
         "price": 699.00,
@@ -495,7 +495,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/sweets/KSR_PBF_23_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/KSR_PBF_23_large.jpg'),
         "name": "Pista Barfi",
         "description": "Pista barfi has a mild nutty flavour and attractive colour, both of which make it very tempting. This barfi is mildly flavoured with cardamom, and tastes delicious.",
         "price": 999.00,
@@ -508,7 +508,7 @@ export let data = {
         "vendorName": "Clusters Petals"
       },
       {
-        "imgUrl": require('../assets/images2/sweets/GH_KR_15_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/sweets/GH_KR_15_large.jpg'),
         "name": "Kaju Roll",
         "price": 999.00,
         "description": "Kaju Roll is one of the most popular Indian mithai. These are Elongated rolls made with cashew nuts.",
@@ -528,7 +528,7 @@ export let data = {
     "name": "personalised",
     "products": [
       {
-        "imgUrl": require('../assets/images2/personalised/GOC_VAL_HWC_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/GOC_VAL_HWC_large.jpg'),
         "name": "Hubby wifey combo",
         "price": 999.00,
         "availability": 100,
@@ -542,7 +542,7 @@ export let data = {
         "vendorName": "PK Gifts Care"
       },
       {
-        "imgUrl": require('../assets/images2/personalised/GOC_VAL_MAMRM_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/GOC_VAL_MAMRM_large.jpg'),
         "name": "Mr and Mrs right duo mug",
         "price": 299.00,
         "description": "Get ready for the duo mug of Mr and Mrs right and celebrate your special day together.",
@@ -555,7 +555,7 @@ export let data = {
         "vendorName": "Gifts on Click"
       },
       {
-        "imgUrl": require('../assets/images2/personalised/GOC_VAL_PGC_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/GOC_VAL_PGC_large.jpg'),
         "name": "Personalised greeting card",
         "price": 799.00,
         "description": "Get a personalised piccture on greeting card printed and make them feel loved.",
@@ -568,7 +568,7 @@ export let data = {
         "vendorName": "Clusters greeting card"
       },
       {
-        "imgUrl": require('../assets/images2/personalised/NS_LYDC_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/NS_LYDC_large.jpg'),
         "name": "Love you daddy",
         "description": "Gift this amazing love you daddy cushion to your father and make him feel loved.",
         "price": 699.00,
@@ -581,7 +581,7 @@ export let data = {
         "vendorName": "Clusters love"
       },
       {
-        "imgUrl": require('../assets/images2/personalised/GOC_CANY_CGHP_31_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/GOC_CANY_CGHP_31_large.jpg'),
         "name": "Cute gift hamper",
         "price": 599.00,
         "description": "Gift this amazing gift hamper to your loved ones and make them feel happy. This hamper includes a teddy bear (color and design may vary as per availability), a box of 200 gms Ferrero Rocher consisting of 16 pieces of chocolates, Lindt Hello Just For You 10 Milk Chocolate Hearts 45g, Lindt Lindor Swiss Milk Chocolate With A Smooth Melting Filling 200g arranged in a basket. Note: The basket may vary as per availablity and stock.",
@@ -595,7 +595,7 @@ export let data = {
         "vendorName": "hamper gifts Petals"
       },
       {
-        "imgUrl": require('../assets/images2/personalised/GOC_VAL_TWC_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/GOC_VAL_TWC_large.jpg'),
         "name": "Twinning with cushions",
         "description": "Showcase this special cushion for the special occasion.",
         "price": 699.00,
@@ -608,7 +608,7 @@ export let data = {
         "vendorName": "Twinning Petals"
       },
       {
-        "imgUrl": require('../assets/images2/personalised/GOC_VAL_PPC_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/GOC_VAL_PPC_large.jpg'),
         "name": "Personalised Picture Cushion",
         "description": "Make your partner feel a little speacial with this picture cushion.",
         "price": 999.00,
@@ -621,7 +621,7 @@ export let data = {
         "vendorName": "Clusters Picture Cushion"
       },
       {
-        "imgUrl": require('../assets/images2/personalised/NS_HFDT_large.jpg'),
+        "imgUrl": require('../assets/Pkgimages/personalised/NS_HFDT_large.jpg'),
         "name": "Happy Father's Day T-shirt",
         "price": 999.00,
         "description": "A beautiful wish from a well deserving child. Show him your love by gifting this special T-shirt.",

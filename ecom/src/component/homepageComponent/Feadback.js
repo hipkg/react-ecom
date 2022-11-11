@@ -40,7 +40,7 @@ export default function Feadback({user}) {
               <div className="card p-2">
                 <div className="card-header bg-white border-0">
                   <div className="image-wrapper">
-                    <img src={require(`../assets/images/${userInfo.img}`)} alt="avtar"  className='img-fluid'/>
+                    <img src={require(`../../assets/images/${userInfo.img}`)} alt="avtar"  className='img-fluid'/>
                   </div>
                   <div className="px-3">
                     <div className='text-truncate fw-bold'>{userInfo.name}</div>
@@ -54,7 +54,7 @@ export default function Feadback({user}) {
                     </div>
                   </div>
                   <a className="facebook-icon" href='https://www.facebook.com' target={'_blank'} rel={'noreferrer'}>
-                    <img src={require('../assets/images/icon/facebook.png')} alt="facebook" className='img-fluid' />
+                    <img src={require('../../assets/images/icon/facebook.png')} alt="facebook" className='img-fluid' />
                   </a>
                 </div>
                 <div className="card-body">{userInfo.feedback}</div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Category({categoryData}) {
   return (
@@ -11,12 +12,12 @@ export default function Category({categoryData}) {
                 <ul className='pt-3'>
                     {categoryData.map((category,index)=>{
                         return <li key={index} className="col-6 col-md-4 col-lg-3 col-xl">
-                                <a className='bg-white rounded shadow-sm' href="#BuyNow">
+                                <Link className='bg-white rounded shadow-sm' to="category" state={{data:category.title}}>
                                     <div className='img-box'>
-                                        <img src={require(`../assets/images/${category.img}`)} alt={category.title} />
+                                        <img src={require(`../../assets/images/${category.img}`)} alt={category.title} />
                                     </div>
                                     <p className='text-capitalize'>{category.title}</p>
-                                </a>
+                                </Link>
                             </li>
                     })}
                 </ul>
